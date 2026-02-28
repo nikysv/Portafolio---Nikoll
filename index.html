@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Nikoll</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio" class="intro-section">
+        <div class="intro-text">
+            <h2>Nikoll Serrate Viera</h2>
+            <p class="subtitle">"Ingeniera de sistemas"</p>
+            <p class="fashion-quote">"Debugging in heels, coding with style."</p>
+        </div>
+        <div class="intro-profile">
+            <div class="profile-circle" data-animation="zoom-in">
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQFyYxE6CZv_BA/profile-displayphoto-scale_400_400/B4EZkWE4XUHEAo-/0/1757012003811?e=1773878400&v=beta&t=OGk_HXL7hWa-LihRyyC1cYvxXCe-ssClqvKiTG1W5U0" alt="Nikoll Serrate Viera" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+            </div>
+            <div class="profile-buttons">
+                <a href="https://www.canva.com/design/DAG2bB-WJjE/zG5QG-RKJcE8GIfhb3hG1Q/edit?utm_content=DAG2bB-WJjE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-cv" target="_blank" rel="noopener noreferrer">Ver CV</a>
+                <a href="https://www.linkedin.com/in/nikoll-serrate-viera-63716b2a8/" class="btn btn-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE MÍ -->
+    <section id="sobre-mi" class="skills-section">
+        <h2 class="section-title">SOBRE MÍ</h2>
+        
+        <div class="skills-category">
+            <h3>Habilidades blandas:</h3>
+            <div class="skills-grid">
+                <div class="skill-tag">Trabajo en equipo</div>
+                <div class="skill-tag">Liderazgo</div>
+                <div class="skill-tag">Aprendizaje rápido</div>
+                <div class="skill-tag">Trabajo bajo presión</div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h3>Habilidades técnicas:</h3>
+            <div class="skills-grid">
+                <div class="skill-tag">Frameworks</div>
+                <div class="skill-tag">Docker</div>
+                <div class="skill-tag">MySQL</div>
+                <div class="skill-tag">SQL</div>
+                <div class="skill-tag">PostgreSQL</div>
+                <div class="skill-tag">MongoDB</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN EXPERIENCIA LABORAL -->
+    <section id="experiencia" class="experience-section">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        
+        <div class="experience-grid">
+            <!-- Trabajo 1 -->
+            <div class="experience-card">
+                <h3 class="experience-title">Editorial Comunicarte</h3>
+                <h4 class="experience-role">Desarrollo de Software (Medio Tiempo)</h4>
+                <p class="experience-desc">
+                    Encargada del desarrollo frontend con React y TypeScript, el soporte backend en Node.js y la definición de la arquitectura técnica y el flujo de trabajo del producto.
+                </p>
+            </div>
+
+            <!-- Trabajo 2 -->
+            <div class="experience-card">
+                <h3 class="experience-title">Tigo Bolivia</h3>
+                <h4 class="experience-role">Pasante de Gerencia de Planificación de Redes Móviles</h4>
+                <p class="experience-desc">
+                    Encargada de la extracción y auditoría de datos móviles con Python (Pandas), el cálculo de indicadores de rendimiento EPA y el desarrollo del sistema "Rollout Phase Tracker" utilizando React.js y Flask.
+                </p>
+            </div>
+
+            <!-- Trabajo 3 -->
+            <div class="experience-card">
+                <h3 class="experience-title">Prismapay</h3>
+                <h4 class="experience-role">Desarrollo de Software</h4>
+                <p class="experience-desc">
+                    Actualmente me desempeño como Fullstack Developer, trabajando en el desarrollo de nuevos módulos, el diseño de la landing page y la optimización del sistema mediante Laravel y Vue.js, abarcando tanto el backend como el frontend para ajustes de diseño e integraciones.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="projects-section">
+        <h2 class="section-title">Mis <span style="color: #ff66b2;">Proyectos</span></h2>
+        <p style="text-align: center; color: #555; margin-bottom: 50px; font-size: 1.1rem;">
+            Una colección de proyectos que demuestran mis habilidades y experiencia en desarrollo
+        </p>
+
+        <div class="projects-content">
+            <!-- Proyecto Principal - PrismaPay -->
+            <article class="project-card" data-animation="fade-up">
+                <div class="project-content">
+                  <div class="project-header">
+                    <h3 class="project-title">PrismaPay</h3>
+                    <div class="project-links">
+                      <a
+                        href="https://prismapay.net"
+                        class="project-link demo-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                          <path
+                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                          />
+                        </svg>
+                        Ver Proyecto
+                      </a>
+                    </div>
+                  </div>
+                  <div class="project-tech-text">
+                      <span class="tech-tag-text">Trabajo actual</span>
+                      <span class="tech-tag-text">Landing Page</span>
+                  </div>
+                  <p class="project-description">
+                    Landing page oficial de la empresa PrismaPay, donde actualmente trabajo. 
+                    Desarrollada para ofrecer una presentación profesional, moderna y clara 
+                    sobre los servicios y soluciones financieras de la compañía.
+                  </p>
+                  <div class="project-features">
+                    <h4 class="features-title">Características principales:</h4>
+                    <ul class="features-list">
+                      <li>Diseño corporativo y profesional</li>
+                      <li>Optimización SEO y rendimiento</li>
+                      <li>Experiencia de usuario fluida y responsiva</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+
+          <!-- Proyecto 1 - Imagen a la derecha -->
+          <article class="project-card" data-animation="fade-up">
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">NikyWin Store</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/nikysv/NikywinStore1?tab=readme-ov-file"
+                    class="project-link github-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    GitHub
+                  </a>
+                  <a
+                    href="https://nikysv.github.io/NikywinStore1/"
+                    class="project-link demo-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                    </svg>
+                    Demo
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech-text">
+                  <span class="tech-tag-text">HTML</span>
+                  <span class="tech-tag-text">JavaScript</span>
+                  <span class="tech-tag-text">CSS</span>
+              </div>
+              <p class="project-description">
+                Nikywin Store es una tienda virtual sencilla hecha con HTML, CSS
+                y JavaScript. Fue creada como un proyecto práctico para aprender
+                diseño web y animaciones básicas.
+              </p>
+              <div class="project-features">
+                <h4 class="features-title">Características principales:</h4>
+                <ul class="features-list">
+                  <li>Diseño limpio y amigable</li>
+                  <li>Interactividad con JavaScript</li>
+                  <li>Estilos modernos con CSS</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2 - Imagen a la izquierda -->
+          <article class="project-card" data-animation="fade-up">
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">NOTESAPP PWA</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/nikysv/noteSPA---PWA"
+                    class="project-link github-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    GitHub
+                  </a>
+                  <a
+                    href="https://lnkd.in/eitf-A9R"
+                    class="project-link demo-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                    </svg>
+                    Demo
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech-text">
+                  <span class="tech-tag-text">React</span>
+                  <span class="tech-tag-text">Express.js</span>
+                  <span class="tech-tag-text">PostgreSQL</span>
+              </div>
+              <p class="project-description">
+                Project Summary This is a Full Stack Notes App built as part of
+                a technical challenge. It allows users to create, edit, delete,
+                archive, and filter notes by tags. The project is structured as
+                a Single Page Application (SPA) using modern web technologies.
+              </p>
+              <div class="project-features">
+                <h4 class="features-title">Características principales:</h4>
+                <ul class="features-list">
+                  <li>Can download notes as PWA</li>
+                  <li>Used PostgreSQL, Netlify and Render</li>
+                  <li>Modern UI with Tailwind CSS</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 3 - Imagen a la derecha -->
+          <article class="project-card" data-animation="fade-up">
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">YellowFlower</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/nikysv/YellowFlower"
+                    class="project-link github-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    GitHub
+                  </a>
+                  <a
+                    href="https://nikysv.github.io/YellowFlower/mensaje.html"
+                    class="project-link demo-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                    </svg>
+                    Demo
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech-text">
+                  <span class="tech-tag-text">JavaScript</span>
+                  <span class="tech-tag-text">HTML</span>
+                  <span class="tech-tag-text">CSS</span>
+              </div>
+              <p class="project-description">
+                Bienvenido a Yellow Flower, un proyecto web interactivo y
+                visualmente encantador que transmite alegría y cariño a través
+                de una animación de flores amarillas.
+              </p>
+              <div class="project-features">
+                <h4 class="features-title">Características principales:</h4>
+                <ul class="features-list">
+                  <li>Flores amarillas animadas con pétalos radiales</li>
+                  <li>Estilo suave y armonioso con paleta pastel</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 4 - Imagen a la izquierda -->
+          <article class="project-card" data-animation="fade-up">
+            <div class="project-content">
+              <div class="project-header">
+                <h3 class="project-title">F7ven Times Page</h3>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/nikysv/Platzi_js1"
+                    class="project-link github-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                    GitHub
+                  </a>
+                  <a
+                    href="https://nikysv.github.io/Platzi_js1/index.html"
+                    class="project-link demo-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                    </svg>
+                    Demo
+                  </a>
+                </div>
+              </div>
+              <div class="project-tech-text">
+                  <span class="tech-tag-text">React</span>
+                  <span class="tech-tag-text">JAVASCRIPT</span>
+                  <span class="tech-tag-text">CSS</span>
+              </div>
+              <p class="project-description">
+                Pagina web de grupo de covers de Kpop en Youtube.
+              </p>
+              <div class="project-features">
+                <h4 class="features-title">Características principales:</h4>
+                <ul class="features-list">
+                  <li>Integración con la API de YouTube para mostrar videos.</li>
+                  <li>Interfaz moderna con Tailwind CSS</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contact-section">
+        <h2 class="section-title">Envíame un <span style="color: #ff66b2;">Mensaje</span></h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>¿Tienes un proyecto en mente?</h3>
+                <p>Estoy disponible para freelance y nuevas oportunidades. Envíame un mensaje y hablemos sobre cómo puedo aportar a tu equipo.</p>
+                
+                <div class="contact-email">
+                    <strong>Email:</strong>
+                    <a href="mailto:serratenikoll@gmail.com">serratenikoll@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" id="correo" name="correo" placeholder="tu@correo.com" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="propuesta">Propuesta de Proyecto</label>
+                        <textarea id="propuesta" name="propuesta" rows="5" placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-cv">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nikoll. Todos los derechos reservados. Hecho con dedicación y café.</p>
+    </footer>
+  </body>
+</html>
